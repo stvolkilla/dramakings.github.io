@@ -1,4 +1,29 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Dramakings"
 theme = "hugo-lithium-theme"
+[taxonomies]
+  tag = "tags"
+  
+[[menu.main]]
+    name = "קצת עליי"
+    url = "/about/"
+[[menu.main]]
+    name = "פיילוטים"
+    url = ""
+[[menu.main]]
+    name = "ספרים שקראתי"
+    url = ""
+
+  
+[params]
+    description = ""
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+    
+[params]
+    custom_css = ["static/css/foo.css"]
