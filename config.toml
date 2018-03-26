@@ -24,6 +24,5 @@ theme = "hugo-lithium-theme"
     width = 50
     height = 50
     alt = "Logo"
-    
-[params]
+
     custom_css = ["static/css/foo.css"]
