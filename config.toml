@@ -17,7 +17,7 @@ theme = "hugo-lithium-theme"
 
   
 [params]
-    customCSS = [ "custom.css" ]
+    customCSS = [ "static/css/custom.css" ]
 
     description = ""
 
