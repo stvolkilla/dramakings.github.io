@@ -10,10 +10,10 @@ theme = "hugo-lithium-theme"
     url = "/about/"
 [[menu.main]]
     name = "פיילוטים"
-    url = ""
+    url = "/pilots/"
 [[menu.main]]
     name = "ספרים שקראתי"
-    url = ""
+    url = "/books/"
 
   
 [params]
