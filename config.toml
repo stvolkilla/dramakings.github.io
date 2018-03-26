@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "he-IL"
 title = "Dramakings"
 theme = "hugo-lithium-theme"
 [taxonomies]
@@ -17,7 +17,7 @@ theme = "hugo-lithium-theme"
 
   
 [params]
-    customCSS = [ "static/css/custom.css" ]
+    customCSS = [ "custom.css" ]
 
     description = ""
 
