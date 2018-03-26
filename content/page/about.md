@@ -4,8 +4,6 @@ title = "About"
 draft = false
 +++
 
-Lorem ipsum dolor sit amet.
-
 שלום קוראים לי יארוסלב
 
 
