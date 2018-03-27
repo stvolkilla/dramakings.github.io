@@ -16,9 +16,6 @@ theme = "hugo-lithium-theme"
 [[menu.main]]
     name = "ספריה"
     url = "/page/books/"
-[[menu.main]]
-    name = "בלוג"
-    url = "/"
 
   
 [params]
