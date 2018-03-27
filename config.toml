@@ -7,13 +7,13 @@ theme = "hugo-lithium-theme"
   
 [[menu.main]]
     name = "קצת עליי"
-    url = "page/about/"
+    url = "/page/about/"
 [[menu.main]]
     name = "מחשבות על פרק"
-    url = "page/episodes/"
+    url = "/page/episodes/"
 [[menu.main]]
     name = "ספרים שקראתי"
-    url = "page/books/"
+    url = "/page/books/"
 
   
 [params]
