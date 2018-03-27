@@ -9,10 +9,10 @@ theme = "hugo-lithium-theme"
     name = "קצת עליי"
     url = "/page/about/"
 [[menu.main]]
-    name = "מחשבות על פרק"
+    name = "מחשבות על פרק#"
     url = "/page/episodes/"
 [[menu.main]]
-    name = "ספרים שקראתי"
+    name = "ספריה"
     url = "/page/books/"
 
   
