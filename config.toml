@@ -10,9 +10,7 @@ theme = "hugo-lithium-theme"
 [[menu.main]]
     name = "About"
     url = "/page/about/"
-[[menu.main]]
-    name = "#Tags"
-    url = "/page/tags/"
+
 [[menu.main]]
     name = "ספריה"
     url = "/page/books/"

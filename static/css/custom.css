@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  background-color: red;
 }
 
 body {
@@ -89,8 +90,6 @@ del {
 .nav-links a {
   text-decoration: none;
   color: #111;
-  transition-property: border;
-  transition-duration: .3s;
 }
 
 .nav-links a:hover {
@@ -268,7 +267,7 @@ del {
   }
   
   .nav-links li a:hover {
-    padding-bottom: 22px;
+    padding-bottom: 21px;
     border-bottom: 5px solid #e03636;
   }
 
