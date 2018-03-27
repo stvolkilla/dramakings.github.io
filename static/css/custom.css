@@ -91,6 +91,10 @@ del {
   color: #111;
 }
 
+.nav-links a:hover {
+  color: #000;
+}
+
 .content {
   max-width: 800px;
   margin: 60px auto 80px;
@@ -262,8 +266,7 @@ del {
   }
   
   .nav-links li a:hover {
-    border-bottom: 3px solid #e03636;
-    transition: transform 150ms ease-out;
+    border-bottom: 4px solid #ddd;
   }
 
   .content {
