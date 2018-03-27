@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Suez One' ,sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -89,6 +89,8 @@ del {
 .nav-links a {
   text-decoration: none;
   color: #111;
+  transition-property: border;
+  transition-duration: .1s;
 }
 
 .nav-links a:hover {
