@@ -89,6 +89,8 @@ del {
 .nav-links a {
   text-decoration: none;
   color: #111;
+  transition-property: border;
+  transition-duration: .3s;
 }
 
 .nav-links a:hover {
@@ -266,7 +268,8 @@ del {
   }
   
   .nav-links li a:hover {
-    border-bottom: 4px solid #ddd;
+    padding-bottom: 22px;
+    border-bottom: 4px solid #e03636;
   }
 
   .content {

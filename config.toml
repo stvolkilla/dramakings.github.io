@@ -2,18 +2,23 @@ baseURL = "/"
 languageCode = "he-IL"
 title = "Dramakings"
 theme = "hugo-lithium-theme"
+
 [taxonomies]
   tag = "tags"
+  category = "categories"
   
 [[menu.main]]
-    name = "קצת עליי"
+    name = "About"
     url = "/page/about/"
 [[menu.main]]
-    name = "מחשבות על פרק#"
-    url = "/page/episodes/"
+    name = "#Tags"
+    url = "/page/tags/"
 [[menu.main]]
     name = "ספריה"
     url = "/page/books/"
+[[menu.main]]
+    name = "בלוג"
+    url = "/"
 
   
 [params]
