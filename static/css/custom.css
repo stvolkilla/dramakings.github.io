@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: 'Suez One' ,sans-serif;
+  font-family: 'Assistant','Arial', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Assistant', sans-serif;
   color: #222;
 }
 
@@ -54,7 +54,7 @@ del {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Assistant','Helvetica',sans-serif;
   text-align: left;
 }
 
@@ -130,6 +130,11 @@ del {
   box-shadow: inset 0 -4px 0 #CBF8DF;
   background: transparent;
   transition: background 150ms ease;
+  font-weight: 700;
+}
+
+.article-content .book-review {
+  font-family: 'Assistant','Arial',sans-serif''
 }
 
 .article-content a:hover,
@@ -177,8 +182,10 @@ del {
 }
 
 .archive-item-date {
+  font-family: 'Amatic SC',sans-serif;
   color: #e03636;
-  font-size: 14px;
+  font-size: 22px;
+  font-weight: 700;
   padding: 2px 0;
   margin-top: 5px;
   display: block;
@@ -188,8 +195,7 @@ del {
   display: inline-block;
   text-decoration: none;
   font-size: 21px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-family: 'Assistant','Arial', sans-serif;
   color: #222;
   padding: 5px 0;
   border-bottom: 1px solid #ddd;
@@ -202,7 +208,7 @@ del {
 .footer {
   padding: 25px 0;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Assistant','Arial', sans-serif;
 }
 
 .footer-links {
@@ -260,7 +266,7 @@ del {
   }
 
   .nav-links {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .nav-links li {
@@ -292,7 +298,9 @@ del {
   }
 
   .archive-item-date {
-    font-size: 19px;
+    font-size: 28px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
     text-align: left;
     float: right;
     margin-left: 1em;
