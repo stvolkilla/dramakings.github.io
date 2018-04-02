@@ -12,7 +12,7 @@ theme = "hugo-lithium-theme"
     url = "/page/books/"
     
 [[menu.main]]
-    name = "מחשבות על הפרק"
+    name = "TV סדרות "
     url = "/page/episodes/"
     
 [[menu.main]]

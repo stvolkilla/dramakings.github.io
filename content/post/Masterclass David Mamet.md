@@ -6,5 +6,5 @@ tags: ["mamet","מאסטר-קלאס","לומדים-תסריטאות"]
 categories: ["לומדים-תסריטאות"]
 ---
 
-![Example image](//localhost:1313/images/mamet.jpg)
+![Example image](//localhost:1313/images/dex.jpg)
 
