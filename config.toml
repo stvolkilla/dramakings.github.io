@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "he-IL"
 title = "Dramakings"
 theme = "hugo-lithium-theme"
+enableEmoji = true   
   
 [[menu.main]]
     name = "אודותיי"
@@ -17,8 +18,7 @@ theme = "hugo-lithium-theme"
     
 [[menu.main]]
     name = "בלוג"
-    url = "/"
-    
+    url = "/"       
   
 [params]
     customCSS = [ "custom.css" ]
