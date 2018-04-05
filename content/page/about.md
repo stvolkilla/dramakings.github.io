@@ -2,7 +2,9 @@
 title: "אודותיי"
 date: 2018-03-29T15:50:55+03:00
 draft: false
+type: "page"
 ---
 
 קוראים לי
 
+{{< youtube id="kRhjlBDU740" >}}
