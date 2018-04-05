@@ -205,6 +205,12 @@ del {
   border-bottom-color: #222;
 }
 
+.series {
+  height: 300px;
+  background-color: yellow;
+  border: 1px solid #000;
+}
+
 .footer {
   padding: 25px 0;
   text-align: center;
