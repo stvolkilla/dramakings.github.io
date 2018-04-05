@@ -208,6 +208,8 @@ del {
 .columns {
   width: 800px;
   margin: 0 auto;
+  margin-top: 100px;
+  text-align: right;
 }
 
 .columns-row {
@@ -215,9 +217,10 @@ del {
 }
 
 .list-series {
-  list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
 }
 
 .list-series li {
@@ -328,8 +331,9 @@ del {
     margin-left: 1em;
   }
 
-  .article-title {
+  .article-title, .columns-heading {
     font-size: 42px;
+    text-align: right;
   }
 
   .article-duration {
