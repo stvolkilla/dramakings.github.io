@@ -14,7 +14,7 @@ enableEmoji = true
     
 [[menu.main]]
     name = "TV סדרות "
-    url = "/page/episodes/"
+    url = "/page/episodes"
     
 [[menu.main]]
     name = "בלוג"

@@ -205,15 +205,9 @@ del {
   border-bottom-color: #222;
 }
 
-.columns {
-  width: 800px;
-  margin: 0 auto;
-}
-
-.list-series li {
-  display: inline-block;
-  width: 33%;
-  height: 200px;
+.series {
+  height: 300px;
+  background-color: yellow;
   border: 1px solid #000;
 }
 

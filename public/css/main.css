@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: 'Assistant','Arial', sans-serif;
+  font-family: 'Merriweather', serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #222;
 }
 
@@ -30,12 +30,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
-
-del {
-      text-decoration: line-through; 
-    -webkit-text-decoration-color: #e03636; /* Safari */   
-    text-decoration-color: #e03636;
 }
 
 .wrapper {
@@ -54,12 +48,12 @@ del {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
-  font-family: 'Assistant','Helvetica',sans-serif;
-  text-align: left;
+  font-family: 'Lato', sans-serif;
+  text-align: right;
 }
 
 .nav-logo {
-  float: right;
+  float: left;
   margin-top: -11px;
   transition: transform 150ms ease-out;
 }
@@ -83,14 +77,16 @@ del {
 
 .nav-links li {
   display: inline-block;
-  margin: 0 15px 0 0;
+  margin: 0 0 0 15px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #111;
-  transition-property: border;
-  transition-duration: .1s;
 }
 
 .nav-links a:hover {
@@ -98,7 +94,7 @@ del {
 }
 
 .content {
-  max-width: 800px;
+  max-width: 700px;
   margin: 60px auto 80px;
   padding: 0 15px;
   font-size: 16px;
@@ -107,20 +103,30 @@ del {
 }
 
 .article-title {
-  font-size: 1.5em;
+  font-size: 34px;
   color: #222;
   margin: 0;
   line-height: 1.3;
-  text-align: right;
 }
 
-.article-content {
-  text-align: right;
-  direction: rtl;
+.article-date {
+  color: #ccc;
+}
+
+.article-duration {
+  margin-top: 12px;
+  float: right;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  padding: 1px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  background: #bbb;
+  color: #fff
 }
 
 .article-content p {
-  margin: 15px 0 10px;
+  margin: 15px 0 25px;
 }
 
 .article-content a {
@@ -130,11 +136,6 @@ del {
   box-shadow: inset 0 -4px 0 #CBF8DF;
   background: transparent;
   transition: background 150ms ease;
-  font-weight: 700;
-}
-
-.article-content .book-review {
-  font-family: 'Assistant','Arial',sans-serif''
 }
 
 .article-content a:hover,
@@ -144,7 +145,7 @@ del {
 
 .article-content hr {
   width: 150px;
-  margin: 30px 20px 0;
+  margin: 50px auto;
   height: 1px;
   overflow: hidden;
   border: none;
@@ -182,11 +183,9 @@ del {
 }
 
 .archive-item-date {
-  font-family: 'Amatic SC',sans-serif;
-  color: #e03636;
-  font-size: 22px;
-  font-weight: 700;
-  padding: 2px 0;
+  color: #ccc;
+  font-size: 14px;
+  padding: 5px 0;
   margin-top: 5px;
   display: block;
 }
@@ -195,7 +194,8 @@ del {
   display: inline-block;
   text-decoration: none;
   font-size: 21px;
-  font-family: 'Assistant','Arial', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
   color: #222;
   padding: 5px 0;
   border-bottom: 1px solid #ddd;
@@ -205,22 +205,10 @@ del {
   border-bottom-color: #222;
 }
 
-.columns {
-  width: 800px;
-  margin: 0 auto;
-}
-
-.list-series li {
-  display: inline-block;
-  width: 33%;
-  height: 200px;
-  border: 1px solid #000;
-}
-
 .footer {
   padding: 25px 0;
   text-align: center;
-  font-family: 'Assistant','Arial', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer-links {
@@ -252,7 +240,7 @@ del {
 .footer-links li::before {
   content: '/';
   position: relative;
-  right: -2px;
+  left: -2px;
 }
 
 .footer-links li:first-child::before {
@@ -261,7 +249,7 @@ del {
 .footer-links-kudos img {
   position: relative;
   top: 6px;
-  margin-right: 2px;
+  margin-left: 2px;
 }
 
 @media (min-width: 600px) {
@@ -278,16 +266,11 @@ del {
   }
 
   .nav-links {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .nav-links li {
-    margin: 0 30px 0 0;
-  }
-  
-  .nav-links li a:hover {
-    padding-bottom: 21px;
-    border-bottom: 5px solid #e03636;
+    margin: 0 0 0 30px;
   }
 
   .content {
@@ -302,7 +285,7 @@ del {
   }
 
   .archive {
-    text-align: right;
+    text-align: left;
   }
 
   .archive-title {
@@ -310,12 +293,9 @@ del {
   }
 
   .archive-item-date {
-    font-size: 28px;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    text-align: left;
+    font-size: 19px;
+    text-align: right;
     float: right;
-    margin-left: 1em;
   }
 
   .article-title {

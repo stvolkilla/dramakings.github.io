@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dramakings</title>
+    <link>/</link>
+    <description>Recent content on Dramakings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>he-IL</language>
+    <lastBuildDate>Mon, 02 Apr 2018 18:12:20 +0300</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dexter</title>
+      <link>/series/dexter/</link>
+      <pubDate>Mon, 02 Apr 2018 18:12:20 +0300</pubDate>
+      
+      <guid>/series/dexter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TV סדרות</title>
+      <link>/page/episodes/</link>
+      <pubDate>Thu, 29 Mar 2018 16:16:50 +0300</pubDate>
+      
+      <guid>/page/episodes/</guid>
+      <description>a b  </description>
+    </item>
+    
+    <item>
+      <title>אודותיי</title>
+      <link>/page/about/</link>
+      <pubDate>Thu, 29 Mar 2018 15:50:55 +0300</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>קוראים לי
+  </description>
+    </item>
+    
+    <item>
+      <title>ספריה</title>
+      <link>/page/books/</link>
+      <pubDate>Tue, 27 Mar 2018 00:40:37 +0300</pubDate>
+      
+      <guid>/page/books/</guid>
+      <description>Write to TV: Out of Your Head and onto the Screen 2nd Edition / Marty Cook
+ למחבר יש כמעט פרק שלם אותו הוא מקדיש למבנה של הפרק בסדרות דרמה, לא ששם הוא מגלה לנו אמריקה אבל שווה התייחסות.חוץ מזה עוד ספר מתוך מאות ספרים שכאלה
+Writing the Pilot / William Rabkin 
+נחשב לאחד הספרים המובילים לכתיבת סדרות. לצערי מאוד התאכזתי
+Writing the TV Drama Series 3rd edition: How to Succeed as a Professional Writer in TV / Pam Douglas</description>
+    </item>
+    
+    <item>
+      <title>Masterclass David Mamet</title>
+      <link>/post/masterclass-david-mamet/</link>
+      <pubDate>Mon, 26 Mar 2018 23:58:21 +0300</pubDate>
+      
+      <guid>/post/masterclass-david-mamet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Masterclass Aaron Sorkin</title>
+      <link>/post/masterclass-aaron-sorkin/</link>
+      <pubDate>Mon, 26 Mar 2018 05:32:04 +0300</pubDate>
+      
+      <guid>/post/masterclass-aaron-sorkin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>שובר שורות פיילוט</title>
+      <link>/post/%D7%A9%D7%95%D7%91%D7%A8-%D7%A9%D7%95%D7%A8%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%9C%D7%95%D7%98/</link>
+      <pubDate>Sun, 25 Mar 2018 19:33:53 +0300</pubDate>
+      
+      <guid>/post/%D7%A9%D7%95%D7%91%D7%A8-%D7%A9%D7%95%D7%A8%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%9C%D7%95%D7%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/series/breaking-bad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/series/breaking-bad/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
