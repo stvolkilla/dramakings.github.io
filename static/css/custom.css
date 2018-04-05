@@ -210,9 +210,19 @@ del {
   margin: 0 auto;
 }
 
+.columns-row {
+  margin-bottom: 20px;
+}
+
+.list-series {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .list-series li {
   display: inline-block;
-  width: 33%;
+  width: 32%;
   height: 200px;
   border: 1px solid #000;
 }
