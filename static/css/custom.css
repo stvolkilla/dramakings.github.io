@@ -212,22 +212,20 @@ del {
   text-align: right;
 }
 
-.columns-row {
-  margin-bottom: 20px;
-}
-
 .list-series {
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   list-style: none;
+  text-align: center;
 }
 
 .list-series li {
   display: inline-block;
   width: 32%;
-  height: 200px;
+  min-height: 220px;
   border: 1px solid #000;
+  vertical-align: top;
 }
 
 .footer {
