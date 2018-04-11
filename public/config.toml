@@ -1,0 +1,34 @@
+baseURL = "/"
+languageCode = "he-IL"
+title = "Dramakings"
+theme = "hugo-lithium-theme"
+enableEmoji = true   
+  
+[[menu.main]]
+    name = "אודותיי"
+    url = "/page/about/"
+
+[[menu.main]]
+    name = "ספריה"
+    url = "/page/books/"
+    
+[[menu.main]]
+    name = "TV סדרות "
+    url = "/page/episodes"
+    
+[[menu.main]]
+    name = "בלוג"
+    url = "/"       
+  
+[params]
+    customCSS = [ "custom.css" ]
+
+    description = ""
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+
