@@ -5,7 +5,7 @@ draft: false
 type: "page"
 ---
 
-![Example image](//localhost:1313/images/book.jpg)
+![Example image](/images/book.jpg)
 
 <a href="https://amzn.to/2ulH0V9">
 ~~Write to TV: Out of Your Head and onto the Screen 2nd Edition / Marty Cook~~<br>
