@@ -1,4 +1,4 @@
-baseURL = "https://stupefied-ritchie-c4ccf0.netlify.com/"
+baseURL = ""
 languageCode = "he-IL"
 title = "Dramakings"
 theme = "hugo-lithium-theme"
