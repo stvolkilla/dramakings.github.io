@@ -3,8 +3,8 @@ languageCode = "he-IL"
 title = "Dramakings"
 theme = "hugo-lithium-theme"
 enableEmoji = true  
-disqusShortname = "yaroslav-fainberg"
 favicon = "images/favicon.ico"
+disqusShortname = "yaroslav-fainberg"
   
 [[menu.main]]
     name = "אודותיי"
@@ -24,6 +24,7 @@ favicon = "images/favicon.ico"
   
 [params]
     customCSS = [ "custom.css" ]
+    
 
     description = ""
 
