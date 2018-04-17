@@ -2,7 +2,8 @@ baseURL = ""
 languageCode = "he-IL"
 title = "Dramakings"
 theme = "hugo-lithium-theme"
-enableEmoji = true   
+enableEmoji = true  
+disqusShortname = "yaroslav-fainberg"
   
 [[menu.main]]
     name = "אודותיי"
