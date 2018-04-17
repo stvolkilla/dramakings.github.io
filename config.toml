@@ -4,6 +4,7 @@ title = "Dramakings"
 theme = "hugo-lithium-theme"
 enableEmoji = true  
 disqusShortname = "yaroslav-fainberg"
+favicon = "images/favicon.ico"
   
 [[menu.main]]
     name = "אודותיי"
