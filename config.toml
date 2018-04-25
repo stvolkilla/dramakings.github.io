@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/"
 languageCode = "he-IL"
 title = "Dramakings"
 theme = "hugo-lithium-theme"
